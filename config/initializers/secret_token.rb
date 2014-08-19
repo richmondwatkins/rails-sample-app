@@ -11,5 +11,5 @@
 # if you're sharing your code publicly.
 
 # SampleApp::Application.config.secret_key_base = 'ffc37b2bdd218b5d2514cbfc8061b1108fa50cf27807ccbbba7ffd98b292c8ba68b857699d1c734f7504da9569f2c4d68d42b86d7559dc8387e9dcdf6c294e38'
-secret = Rails.env.production? ? ENV['SECRET_TOKEN'] : "ffc37b2bdd218b5d2514cbfc8061b1108fa50cf27807ccbbba7ffd98b292c8ba68b857699d1c734f7504da9569f2c4d68d42b86d7559dc8387e9dcdf6c294e38"
-YourApp::Application.config.secret_key_base = secret
+secret = Rails.env.production? ? ENV['SECRET_TOKEN'] : "6991c6e3e8c854523b5b1bab63d41bf9fc2427251d68042ff3fbead3c5d7b35756e9f116a325a663f7c653e55e06ef805da7f69b5207f253e4d07eb25df3a94b"
+MyApp::Application.config.secret_key_base = secret
